@@ -1,4 +1,4 @@
-# 🛡️ Smart Contract Security Review
+# Smart Contract Security Review
 
 ## Vulnerability Report
 
